@@ -1,0 +1,25 @@
+.card {
+    position: relative;
+}
+
+.card-text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Make the overlay width 100% of the image */
+    height: 100%; /* Make the overlay height 100% of the image */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    top: 10%;
+    padding: 10px;
+    color: white;
+    text-shadow: black;
+    font-size: xx-large;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(208, 208, 74);
+    
+}

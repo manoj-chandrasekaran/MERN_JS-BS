@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS | Task-5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.20.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-12">
+            <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+                <form class="bg-light m-5 p-5">
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="mb-3">
+                                    <label for="validationTooltipUsername" class="form-label">First Name</label>
+                            </td>
+                            <td>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                            <path fill-rule="evenodd"
+                                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                        </svg>
+                                    </span>
+                                    <input type="text" class="form-control" id="validationServer03"
+                                        aria-describedby="validationTooltipUsernamePrepend" placeholder="First Name" required>
+                                    <div class="invalid-feedback">
+                                        Please supply your first name
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="mb-3">
+                                    <label for="validationTooltipUsername" class="form-label">Last Name</label>
+                            </td>
+                            <td>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                            <path fill-rule="evenodd"
+                                                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                                        </svg>
+                                    </span>
+                                    <input type="text" class="form-control" id="validationTooltipUsername"
+                                        aria-describedby="validationTooltipUsernamePrepend" placeholder="Last Name" required>
+                                    <div class="invalid-tooltip">
+                                        Please supply your last name
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="mb-3">
+                                    <label for="validationTooltipUsername" class="form-label">E-Mail</label>
+                            </td>
+                            <td>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                                          </svg>
+                                    </span>
+                                    <input type="email" class="form-control" id="validationTooltipUsername"
+                                        aria-describedby="validationTooltipUsernamePrepend" placeholder="E-Mail Address" required>
+                                    <div class="invalid-tooltip">
+                                        Please supply your email address
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="mb-3">
+                                    <label for="validationTooltipUsername" class="form-label">Phone #</label>
+                            </td>
+                            <td>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                          </svg>
+                                    </span>
+                                    <input type="number" class="form-control" id="validationTooltipUsername"
+                                        aria-describedby="validationTooltipUsernamePrepend" placeholder="+91-99999-99999" required>
+                                    <div class="invalid-tooltip">
+                                        Please supply your phone number
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="mb-3">
+                                    <label for="validationTooltipUsername" class="form-label">Address</label>
+                            </td>
+                            <td>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
+                                          </svg>
+                                    </span>
+                                    <input type="text" class="form-control" id="validationTooltipUsername"
+                                        aria-describedby="validationTooltipUsernamePrepend" placeholder="Address" required>
+                                    <div class="invalid-tooltip">
+                                        Please supply your address
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="mb-3">
+                                    <label for="validationTooltipUsername" class="form-label">City</label>
+                            </td>
+                            <td>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                                            <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                                            <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
+                                          </svg>
+                                    </span>
+                                    <input type="text" class="form-control" id="validationTooltipUsername"
+                                        aria-describedby="validationTooltipUsernamePrepend" placeholder="City" required>
+                                    <div class="invalid-tooltip">
+                                        Please supply your city
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="mb-3">
+                                    <label for="validationTooltipUsername" class="form-label">State</label>
+                            </td>
+                            <td>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                                          </svg>
+                                    </span>
+                                    <select class="form-select" id="inputGroupSelect01">
+                                        <option selected>Please select your state</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                    <div class="invalid-tooltip">
+                                        Please supply your state
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="mb-3">
+                                    <label for="validationTooltipUsername" class="form-label">Do you have hosting?</label>
+                            </td>
+                            <td>
+                                <div class="input-group has-validation">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                          Yes
+                                        </label>
+                                      </div>
+                                      <tr>
+                                        <td></td>
+                                        <td>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                          No
+                                        </label>
+                                      </div>
+                                    </td>
+                                      </tr>
+                                    <div class="invalid-tooltip">
+                                        Please provide your answer
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="mb-3">
+                                    <label for="validationTooltipUsername" class="form-label">City</label>
+                            </td>
+                            <td>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                                            <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"/>
+                                          </svg>
+                                    </span>
+                                    <textarea cols="30"></textarea>
+                                    <div class="invalid-tooltip">
+                                        Please supply your description
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" class="text-center mt-3 pt-3">
+                                <button type="submit" class="btn btn-warning" id="submit-button">Submit
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                        <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083l6-15Zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471-.47 1.178Z"/>
+                                      </svg>
+                                </button>
+                            </td>
+                        </tr>
+            </div>
+            </table>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        const submitButton = document.querySelector('#submit-button');
+        submitButton.addEventListener('click', (event) => {
+            event.preventDefault();
+
+            const form = document.querySelector('form');
+            if (!form.checkValidity()) {
+                return;
+            }
+
+            // Submit the form
+            form.submit();
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+}
+.vertical{
+    background: rgb(150, 191, 226);
+    float: left;
+}
+
+.vertical li{
+    float: inline-end;
+    display: block;
+    padding: 10px;
+    color: blue;
+}
+
+.vertical li:hover{
+    background-color: orange;
+}
+
+.horizontal{
+    background: rgb(200, 199, 199);
+    float: inline-start;
+}
+
+.horizontal li{
+    float: left;
+    display: block;
+    padding: 10px;
+    color: blue;
+}
+
+.horizontal li:hover{
+    background-color: gray;
+}
+
+a:hover{
+    color: #fff;
+}

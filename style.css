@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.html, body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+table{
+    border-collapse: collapse;
+    width: auto;
+}
+
+th, td{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 8px;
+}
+
+#header{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
